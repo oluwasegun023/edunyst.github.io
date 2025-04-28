@@ -54,7 +54,7 @@
                             <div class="headerarea__left">
                                 <div class="headerarea__left__logo">
 
-                                    <a href="index.html"><img loading="lazy"  src="logo_1.pngimg/logo/" alt="logo"></a>
+                                    <a href="index.html"><img loading="lazy"  src="img/logo/logo_1.png" alt="logo"></a>
                                 </div>
 
                             </div>
