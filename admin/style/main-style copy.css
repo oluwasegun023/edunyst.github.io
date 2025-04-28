@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+.login-section{
+    width: 100%;
+    height: 100%;
+}
+
+.login-section .login-side-div{
+    background-color: #31327a;
+    position: absolute;
+    min-height: 100%;
+    width: 35vw;
+}
+
+
+.login-section  .div-in{
+    position: fixed;
+    width: 75%;
+    height: 85%;
+    left: 12.5%;
+    top: 7.5%;
+    border-radius: 10px;
+}
+
+.login-section  .div-in .side-in-div{
+    width: 50%;
+    height: 100%;
+   background: url(../all-images/body-pix/login-bg.jpg) no-repeat; 
+    background-size: cover;
+    position: absolute;
+        float: left;
+}
+
+
+
+
+
+.login-section  .div-in .side-in-div .side-text{
+    position: relative;
+    top: calc(50% - 180px); 
+    text-align: center;
+    padding: 0px 25px;
+    color: var(--white-color);
+    line-height: 27px;
+    text-align: center; 
+
+}
+
+
+ .arrow-right {
+    width: 0; 
+    height: 0; 
+    top: 20%;
+    right: 0px;
+    position: absolute;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right:20px solid var(--white-color); 
+  }
+
+
+
+.login-section  .div-in .side-in-div .side-text .logo-div{
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--white-color);
+}
+
+
+.login-section  .div-in .side-in-div .side-text .logo-div img{
+    width: 100%;
+}
+
+.login-section  .div-in .side-in-div .side-text h1{
+    padding-top: 20px;
+    margin: 10px 0px;
+    font-weight: lighter;
+    line-height: 45px;
+    font-size: 35px;
+}
+
+.login-section  .div-in .side-in-div .social-div {
+    bottom: 30px;
+    width: auto;
+    left: calc(50% - 115px);
+    position: absolute;
+    color: var(--white-color);
+}
+.login-section  .div-in .side-in-div .social-div .icon-div{
+   
+    height: 35px;
+    padding-top:10px;
+    width: 45px;
+    margin: 70px 3px 0px 3px;
+    border-radius: 100%;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    background:rgb(255, 255, 255, 0.2);
+    transition:all 0.2s ease-in 0.2s;
+    -moz-transition:all 0.2s ease-in 0.2s;
+    -webkit-transition:all 0.2s ease-in 0.2s;
+    -ms-transition:all 0.2s ease-in 0.2s;
+    -o-transition:all 0.2s ease-in 0.2s;
+}
+.login-section  .div-in .side-in-div .social-div  .icon-div i{
+    font-size: 22px;
+}
+
+.login-section  .div-in .side-in-div .social-div .icon-div:hover{
+ background-color: var(--active-color);
+}
+
+
+
+
+
+
+
+
+.login-section .div-in .form-div{
+    width: 50%;
+    float: right;
+    overflow: auto;
+    position: relative;
+    background: none;
+    background-color: var(--white-color);
+}
+
+.login-section .div-in .form-div .form-in{
+  padding: 20px 25px;
+}
+
+
+
+
+
+
+.login-section  .div-in .form-div .form-in .form-header{
+    margin: 0px;
+    height: 40px;
+    padding: 0px;
+    list-style: none;
+    border-bottom: #dbd7d7 1px solid;
+ }
+
+
+   
+ .login-section  .div-in .form-div .form-in .form-header li{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: var(--body-color);
+    cursor: pointer;
+    border-radius: 4px 4px 0px 0px;
+    border-right: #dbd7d7 1px solid;
+    font-family: body-font;
+    -webkit-transition:all ease 0.2s;
+    -ms-transition:all ease 0.2s;
+    -o-transition:all ease 0.2s;
+    -moz-transition:all ease 0.2s;
+    -webkit-appearance: none;
+ }
+
+ .login-section  .div-in .form-div .form-in .form-header li:hover{
+    background-color: #f0eeee;
+    color: var(--main-color);
+ }
+
+ .login-section  .div-in .form-div .form-in .form-header .active-li{
+    background-color: #e0e0e9;
+    color: var(--main-color);
+ }
+ 
+
+ .login-section  .div-in .form-div .form-in .form-header .reload{
+    width: 50px;
+    float: right;
+    font-size: 18px;
+    border: none;
+    border-radius:3px;
+    color: var(--active-color);
+   
+    background-color: #f0eeee;
+ }
+
+
+ .login-section  .div-in .form-div .form-in .form-header .reload:hover{
+    background-color:#e6e2e2;
+    color: var(--main-color);
+ }
+
+
+
+
+
+
+
+
+
+.login-section  .div-in .form-div  #view_page{
+    display: block;
+ }
+
+ .login-section  .div-in .form-div .form-in .fill-form-div{
+    position: absolute;
+    margin: auto;
+    width: calc(100% - 50px);
+    display: none;
+    margin-top: 20px;
+}
+
+.login-section  .div-in .form-div .form-in .fill-form-div .title-div{
+    padding: 8px;
+}
+
+.login-section  .div-in .form-div .fill-form-div .title-div i{
+    color: var(--main-color);
+ }
+
+.login-section  .div-in .form-div .form-in .fill-form-div .title-div span{
+    color: var(--active-color);
+}
+
+.login-section  .div-in .form-div .form-in .fill-form-div .text-field{
+    width: 100%;
+    height: 50px;
+    border: rgba(0, 0, 0, .1) 1px solid;
+    border-radius: 3px;
+    padding: 0px 15px;
+    margin: 5px 0px 15px 0px;
+    font-family: body-font;
+    color:#1e1e1e;
+    -webkit-text-fill-color: #1e1e1e;
+    -webkit-transition:all ease 0.2s;
+    -ms-transition:all ease 0.2s;
+    -o-transition:all ease 0.2s;
+    -moz-transition:all ease 0.2s;
+    -webkit-appearance: none;
+    outline: none !important;
+}
+
+.login-section  .div-in .form-div .form-in .fill-form-div .select-field{
+background-color: var(--white-color);
+}
+
+.login-section  .div-in .form-div .form-in .fill-form-div .text-field:focus{
+    border-color: var(--main-color);
+    -moz-appearance:none;
+    -moz-transform:scale(1) translate(1px,0px);
+    -webkit-transform:scale(1) translate(1px,0px);
+}
+
+.login-section  .div-in .form-div .form-in .fill-form-div .complain{
+    border:var(--active-color) 1px solid;
+    -moz-appearance:none;
+    -moz-transform:scale(1.02) translate(1px,0px);
+    -webkit-transform:scale(1.02) translate(1px,0px);
+ }
+    
+    
+ .login-section  .div-in .form-div .form-in .fill-form-div .bi-eye{
+    position: absolute;
+    right: 20px;
+    top: 170px;
+    padding: 0 5px;
+    color: var(--body-color);
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+ .login-section  .div-in .form-div .form-in .fill-form-div .title-in{
+    float: left;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.login-section  .div-in .form-div .form-in .fill-form-div .reset-password{
+    float: right;
+    font-size: 14px;
+}
+
+
+
+.login-section  .div-in .form-div .form-in .fill-form-div .btn{
+    margin: 15px 0px;
+    width: 100%;
+    height: 50px;
+    border:none;
+    border-radius:3px;
+    font-family: body-font;
+    cursor: pointer;
+    font-size: 18px;
+    background-image: linear-gradient(to right,var(--main-color),var(--active-color));
+    color: #FFF;
+    transition:all 0.2s ease-in 0.2s;
+    -moz-transition:all 0.2s ease-in 0.2s;
+    -webkit-transition:all 0.2s ease-in 0.2s;
+    -ms-transition:all 0.2s ease-in 0.2s;
+    -o-transition:all 0.2s ease-in 0.2s;
+}
+
+.login-section  .div-in .form-div .form-in .fill-form-div .btn:hover{
+    background-image: linear-gradient(to right,var(--active-color),var(--main-color));
+}
+
+.notification-div{
+    color: var(--body-color);
+    background: rgba(0, 168, 89, .06);
+    padding: 13px;
+    font-size: 13px;
+    line-height: 18px;
+    border: rgba(0, 168, 89, .1) 1px solid;
+    margin: 10px 0px;
+}
+.notification-div span{
+    color: var(--main-color);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-div{
+    background: none;
+    border-bottom: var(--main-color) 1px dashed;
+}
+
+.footer-div .footer-in{
+    color: #6b6868;
+}
+
+
+.login-section  .div-in .form-div .form-in .fill-form-div .reset-password:hover, .footer-div .footer-in:hover{
+    color: var(--active-color);
+}
+
+
+.pswd_info{
+    padding: 5px;
+    font-size: 14px;
+}
+
+.alert-otp{
+    background: rgba(233, 126, 112, 0.13);
+    cursor: pointer;
+}
+
+
+
