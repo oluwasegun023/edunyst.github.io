@@ -1484,10 +1484,19 @@
                 // Simulate processing time
                 setTimeout(() => {
                     // Create WhatsApp message
-                    let whatsappMessage = `Hello! I'm ${name}\n\n`;
-                    whatsappMessage += `🏫 School: ${school}\n`;
-                    whatsappMessage += `📚 Level: ${level}\n`;
-                    whatsappMessage += `\n💬 Message:\n${message}`;
+                    let whatsappMessage = `*NEW WEBSITE INQUIRY*\n`;
+                    whatsappMessage += `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n`;
+                    whatsappMessage += `*CLIENT INFORMATION:*\n`;
+                    whatsappMessage += `Name: ${name}\n`;
+                    whatsappMessage += `Institution: ${school}\n`;
+                    whatsappMessage += `Academic Level: ${level}\n\n`;
+                    whatsappMessage += `*INQUIRY DETAILS:*\n`;
+                    whatsappMessage += `"${message}"\n\n`;
+                    whatsappMessage += `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`;
+                    whatsappMessage += `*Timestamp:* ${new Date().toLocaleString()}\n`;
+                    whatsappMessage += `*Source:* Website Contact Form\n\n`;
+                    whatsappMessage += `Please respond at your earliest convenience.\n`;
+                    whatsappMessage += `Thank you.`;
                     
                     // Encode the message for URL
                     const encodedMessage = encodeURIComponent(whatsappMessage);
